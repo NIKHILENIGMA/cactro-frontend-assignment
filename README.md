@@ -36,34 +36,28 @@ Follow the steps below to set up the project locally:
     cd cactro-frontend
     ```
 
-3. Install dependencies:
-
-    ```bash
-    npm install
-    ```
 
 ### Running the Project
 
-Start the development server:
+Start the development server using the Live Server extension in VS Code:
 
-```bash
-npm start
-```
+1. Open the project folder in VS Code.
+2. Install the Live Server extension if you haven't already.
+3. Right-click on the `index.html` file in the project directory and select **Open with Live Server**.
 
-The application will be available at `http://localhost:3000`.
+The application will be available in your default browser at `http://127.0.0.1:5500` or a similar local address.
 
 ## Project Structure
 
 ```
 Cactro-Frontend/
 ├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── App.js
+│   ├── index.html
+│   ├── styles.css
+│   └── main.js
 ├── package.json
 └── README.md
+```
 ```
 
 ## Screenshot
