@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slack - Digital HQ</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="./public/assets/Slack-logo.png"
+            alt="Slack Logo"
+            width="100"
+            height="auto"
+          />
+        </div>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">Product </a>
+            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+          </li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <div class="nav-buttons">
+          <span class="material-symbols-outlined"> search </span>
+          <a href="#" class="sign-in">Sign In</a>
+          <a href="#" class="talk-sales">Talk to Sales</a>
+          <a href="#" class="try-free">Try for Free</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="marketing">
+      <p>
+        Slack is your digital HQ. Meet the new features keeping teams connected
+        in a work-from-antwhere world. <a href="#">Let's go --></a>
+      </p>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Slack is where the future works</h1>
+        <p>
+          Transform the way you work with one place <br />
+          for everyone and everything you need to get stuff done.
+        </p>
+        <div class="buttons">
+          <a href="#" class="btn purple">Try for Free</a>
+          <a href="#" class="btn google"
+            ><img src="./public/assets/Google__G__logo.png" alt="Google" /> Sign
+            Up with Google</a
+          >
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1557200134-3103da7b6bff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Slack UI"
+        />
+      </div>
+    </section>
+
+    <!-- Companies Section -->
+    <section class="companies">
+      <img src="/public/assets/fox-logo-png_seeklogo-57116.png" alt="Fox" />
+      <img src="/public/assets/lonely-planet-logo" alt="Lonely Planet" />
+      <img src="/public/assets/Intuit_Logo.svg.png" alt="Intuit" />
+      <img src="/public/assets/carvana" alt="Carvana" />
+      <img src="/public/assets/kiva" alt="Kiva" />
+      <img src="/public/assets/target" alt="Target" />
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <div class="cta-content">
+        <div class="cta-image">
+          <img
+            src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2xhY2t8ZW58MHx8MHx8fDA%3D"
+            alt="cta-image"
+          />
+        </div>
+        <div class="cta-text">
+          <h2>Now is your moment to build a better tomorrow</h2>
+          <p>
+            We've seen what the future can be. Now it's time to decide what it
+            will be.
+          </p>
+          <p><a href="#" class="btn watch-video">Watch Video</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookie-banner">
+      <button class="close-btn" onclick="closeBanner()">✖</button>
+      <p>
+        This website uses cookies to enhance user experience and to analyze
+        performance and traffic on our website. We also share information about
+        your use of our site with our social media, advertising, and analytics
+        partners.
+        <a href="#">More Info</a>
+      </p>
+      <button class="accept-btn" onclick="acceptCookies()">
+        ACCEPT ALL COOKIES
+      </button>
+      <button class="decline-btn" onclick="declineCookies()">
+        DECLINE ALL COOKIES
+      </button>
+    </div>
+
+    <div class="chatbot" id="chatbot-banner">
+      <p id="chatbot-text">Hey there want to know something cool?</p>
+      <button class="chatbot-btn" onclick="closeChatbot()">👋</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
